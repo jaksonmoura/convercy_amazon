@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+	Built by Jakson Rochelly
+	@jrochelly
+-->
+<html>
+	<head>
+		<link rel="stylesheet" href="layout.css">
+		<script src='jquery.js'></script>
+		<title>Convercy</title>
+	</head>
+	<body>
+		<header>
+			<div id="logo"><img src="img/logo.png" alt="Convercy"></div>
+		</header>
+		<div id="selects">
+			<div id="from_select">
+				<select name="from" id="from">
+					<option selected="selected" value="USD">Dollar - USD</option>
+					<option value="EUR">Euro - EUR</option>
+					<option value="GBP">UK Pound - GBP</option>
+					<option value="JPY">Yen - JPY</option>
+					<option value="INR">Rupee - INR</option>
+					<option value="BRL">Real - BRL</option>
+					<option value="CNY">Yuan - CNY</option>
+					<option value="ZAR">Rand - ZAR</option>
+				</select>
+			</div>
+
+			<div id="to_select">
+				<select name="to" id="to">
+					<option value="USD">Dollars - USD</option>
+					<option selected="selected" value="EUR">Euro - EUR</option>
+					<option value="GBP">UK Pound - GBP</option>
+					<option value="JPY">Yen - JPY</option>
+					<option value="INR">Rupee - INR</option>
+					<option value="BRL">Real - BRL</option>
+					<option value="CNY">Yuan - CNY</option>
+					<option value="ZAR">Rand - ZAR</option>
+				</select>
+			</div>
+		</div>
+		<div id="wrapper">
+
+			<div id="display">
+				<div id="result">
+					<small>getting data...</small>
+				</div>
+			</div>
+			<input type="number" class="amount" name="amount" id="amount" value="1" autofocus/>
+	<div id="hidden-resizer" style="visibility: hidden"></div>
+		</div>
+		<p id="by">by <a href="http://twitter.com/jrochelly" target="_blank">@jrochelly</a></p>
+		<script src='index.js'></script>
+	</body>
+</html>
